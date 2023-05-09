@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel = "icon" href ="rsimg2.png" type = "image/x-icon">
+</head>
+
+<body>
+
+    
+    <div class="container">
+
+        <div class="cont">
+            <b>
+                <h1>Temperature Converter</h1>
+            </b>
+
+            <div class="one">
+
+                <label for="celsius">Celsius</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <br> -->
+                <input type="number" name="" id="celsius" placeholder="Enter Celsius">&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn" onclick="convertFahrenheit()">Convert Fahrenheit</button>
+            </div>
+            <br><br>
+            <div class="two">
+
+                <label for="fahrenheit">Fahrenheit</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <br><br> -->
+                <input type="number" name="" id="fahrenheit" placeholder="Enter Fahrenheit">&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn" onclick="convertCelsius()">Convert Celsius</button>
+
+            </div>
+            <br><br>
+
+            <button class="btn" id="b" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+
+    <script src="back.js "></script>
+</body>
+
+</html>
